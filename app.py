@@ -10,7 +10,7 @@ from groq import Groq
 # -------------------------------
 # 🔐 Secure API Key
 # -------------------------------
-client = Groq(api_key="")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # -------------------------------
 # 💬 Chat Memory
